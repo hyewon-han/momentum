@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
+
+body {
+  font-family: "Gamja Flower", cursive;
+  height: 100vh;
+  display: flex;
+}
+
 .hidden {
   display: none;
 }
@@ -12,4 +20,123 @@ img {
   bottom: 0px;
   z-index: -1;
   opacity: 80%;
+}
+
+#wrap1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  align-items: flex-start;
+}
+
+#wrap2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 750px;
+}
+
+#clock {
+  font-size: 48px;
+  background-color: whitesmoke;
+  width: 300px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  box-shadow: 0 19px 38px rgba(220, 195, 205, 0.2),
+    0 15px 12px rgba(220, 195, 205, 0.3);
+}
+
+#login-form input {
+  width: 200px;
+  height: 38px;
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  margin-right: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  transition: border-color 0.3s ease-in-out;
+  text-align: center;
+}
+
+#login-form input:focus {
+  border-color: tomato;
+  outline: none;
+}
+
+#login-form button {
+  height: 50px;
+  font-size: 24px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 19px 38px rgba(220, 195, 205, 0.2),
+    0 15px 12px rgba(220, 195, 205, 0.3);
+  font-family: "Gamja Flower", cursive;
+}
+
+#login-form input::placeholder {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Gamja Flower", cursive;
+}
+
+#greeting {
+  text-align: center;
+}
+
+#todo-form input {
+  width: 200px;
+  height: 38px;
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  margin-right: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+#todo-form input::placeholder {
+  text-align: center;
+  font-size: 24px;
+  font-family: "Gamja Flower", cursive;
+}
+
+#todo-form input:focus {
+  border-color: tomato;
+  outline: none;
+}
+
+#todo-list {
+  font-size: 30px;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+  height: 20px;
+  width: 350px;
+  margin-top: 400px;
+}
+
+#weather {
+  text-align: center;
+  font-size: 26px;
+  height: 100px;
+  padding: 15px;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  box-shadow: 0 19px 38px rgba(220, 195, 205, 0.2),
+    0 15px 12px rgba(220, 195, 205, 0.3);
 }

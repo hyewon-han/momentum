@@ -9,13 +9,13 @@ function onGeoOk(position) {
     .then((data) => {
       const weather = document.querySelector("#weather span:first-child");
       const city = document.querySelector("#weather span:last-child");
-      weather.innerText = `${data.weather[0].main} / ${data.main.temp}`;
-      city.innerText = data.name;
+      weather.innerText = `🌈날씨 : ${data.weather[0].main}\n🌡️기온 : ${data.main.temp}\n`;
+      city.innerText = `🌏위치 : ${data.name}`;
     });
 }
 
 function onGeoError() {
-  alert("Can't find you. No weather for you");
+  alert("날씨를 찾을 수 없어..! 위치를 허용해 줘!");
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);

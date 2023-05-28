@@ -1,50 +1,46 @@
 const quotes = [
   {
-    quote: "I never dreamed about success, I worked for it",
-    author: "Estee Lauder",
+    quote: "누7ㅏ 뭐zㅏ 해도 난 Lㅏ만의 길을 간ㄷㅏ..!",
+    author: "초ㅣ고심",
   },
   {
-    quote: "Do not try to be original, just try to be good.",
-    author: "Paul Rand",
+    quote: "안되면 되는7ㅓ 해zㅏ! >_<",
+    author: "초ㅣ고심",
   },
   {
-    quote: "Do not be afraid to give up the good to go for the great",
-    author: "John D. Rockefeller",
-  },
-  {
-    quote:
-      "If you cannot fly then run. If you cannot run, then walk. And if you cannot walk, then crawl, but whatever you do, you have to keep moving forward.",
-    author: "Martin Luther King Jr.",
+    quote: "누7ㅏ 뭐라고 하면 0ㅣ렇7ㅔ 말ㅎㅐ! 뭐요? Lㅐ알빠! 0ㅓ쩔0ㅓ쩔요",
+    author: "초ㅣ고심",
   },
   {
     quote:
-      "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
-    author: "Thomas Edison",
+      "뭔7ㅏ 잘 될것 같ㄷr.. 그냥 그런 느낌0ㅣ! 혹ㅅㅣ 근7ㅓ7ㅏ 있Lr요? 없는ㄷㅔ 알빤7ㅏ요?",
+    author: "초ㅣ고심",
+  },
+  {
+    quote: "온ㅅㅔ상0ㅣ Lr를 도오ㅏ! 못할7ㅔ 없ㄷr! 난 행운0ㅏ!",
+    author: "초ㅣ고심",
+  },
+  {
+    quote: "Lㅏ는...성공한ㄷㅏ! 당연함. 난 짱0ㅣLㅣ까.",
+    author: "초ㅣ고심",
   },
   {
     quote:
-      "The fastest way to change yourself is to hang out with people who are already the way you want to be",
-    author: "REid Hoffman",
+      "⭐️중요공지!⭐️ 저를 구ㅣ0ㅕ우ㅓ ㅎㅏㅅㅔ요^^ 0ㅣ유 : 딱히 없Lㅔ요^^",
+    author: "초ㅣ고심",
+  },
+  {
+    quote: "웃는 ㅅㅏ람0ㅣ 승ㅈㅏ😁 오ㅐㄴㅑ? ㅈㅐ밌으Lㅣ77ㅏ~",
+    author: "초ㅣ고심",
+  },
+  {
+    quote: "난 끝77ㅏㅈㅣ 살0ㅏ남을7ㅓ0ㅑ..! ㅇㅇ ㅂㅓㅌㅕ줄7ㅔ",
+    author: "초ㅣ고심",
   },
   {
     quote:
-      "Money is like gasoline during a road trip. You do not want to run out of gas on your trip, but you are not doing a tour of gas stations",
-    author: "Tim O Reilly",
-  },
-  {
-    quote:
-      "Some people dream of success, while other people get up every morning and make it happen",
-    author: "Wayne Huizenga",
-  },
-  {
-    quote:
-      "The only thing worse than starting something and falling.. is not starting something",
-    author: "SEth Godin",
-  },
-  {
-    quote:
-      "If you really want to do something, you will find a way. If you do not, you will find an excuse.",
-    author: "Jim Rohn",
+      "Lㅐ7ㅏ 성공ㅎㅏ는 0ㅣ유..! 1. 짱 0ㅣ0ㅓㅅㅓ 2. 구ㅣ엽ㄷr😉 3. 천ㅈㅐzㅏㅅㅓ^0^ 4. 그zㅣ고 착ㅎㅏㄷㅏ..!",
+    author: "초ㅣ고심",
   },
 ];
 
